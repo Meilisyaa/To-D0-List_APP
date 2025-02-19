@@ -143,7 +143,7 @@ if (isset($_GET['delete'])) {
             <div>
     <a href="tugaslist.php?listid=<?= $r['listid'] ?>" class="text-primary">📄</a>
     <a href="edit_list.php?listid=<?= $r['listid'] ?>" class="text-warning">✏️</a> 
-    <a href="?delete=<?= $r['listid'] ?>" class="text-danger" onclick="return confirm('Hapus daftar tugas ini?')">🗑️</a>
+    <a href="?delete=<?= $r['listid'] ?>" class="text-danger" onclick="return confirm('Hapus daftar List ini?')">🗑️</a>
 </div>
 
         </div>
